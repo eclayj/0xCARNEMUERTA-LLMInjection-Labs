@@ -68,7 +68,7 @@ Results will be logged and classified in `logs/logs.jsonl`.
 
 ## 📎 Related Blog Post
 
-🔗 [Prompt Injection: Dead Data and Exploitable AI](https://eclayj.github.io/0xcarnemuerta.github.io/2025/05/29/prompt-injection.html)
+🔗 [![Blog](https://img.shields.io/badge/blog-0xCARNEMUERTA-black)](https://eclayj.github.io/0xcarnemuerta.github.io/)
 
 ---
 
