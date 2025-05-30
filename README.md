@@ -72,14 +72,6 @@ Results will be logged and classified in `logs/logs.jsonl`.
 
 ---
 
-## 💠 GitHub Badge (for blog)
-
-```markdown
-[![View on GitHub](https://img.shields.io/badge/code-GitHub-blue?logo=github)](https://github.com/eclayj/0xCARNEMUERTA-LLMInjection-Labs)
-```
-
----
-
 ## ⚠️ Disclaimer
 
 This repository is for educational and research purposes only.  
