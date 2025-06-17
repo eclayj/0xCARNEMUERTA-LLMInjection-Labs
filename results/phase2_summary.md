@@ -46,4 +46,4 @@ Even though no critical safety failures occurred, multiple prompts resulted in:
 
 - **Unintended role simulation** (`you are now a JSON API`)
 - **Echo behavior** that could be **abused in multi-step chains**
-- **Vulnerability to formatting tric**
+- **Vulnerability to formatting trick**
