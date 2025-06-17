@@ -5,13 +5,13 @@ import os
 
 # === Configuration ===
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-MODEL = "gpt-3.5-turbo"  # Or "gpt-4"
+MODEL = "gpt-4"
 LOG_FILE = "logs.jsonl"
 
 # === Load Injection Payloads from Files ===
 injections = []
 
-for file in ['payloads/basic.txt', 'payloads/chained.txt']:
+for file in ['payloads/basic.txt', 'payloads/chained.txt', 'payloads/obfuscated.txt']:
     try:
         with open(file, 'r', encoding='utf-8') as f:
             lines = [line.strip() for line in f if line.strip()]
