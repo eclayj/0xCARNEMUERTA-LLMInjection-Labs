@@ -22,6 +22,14 @@ Testing was performed against a separate sample repository created specifically 
 
 The repository was intentionally structured to resemble a normal developer project.
 
+## Test Repository
+
+The experiment was conducted using the following sample repository:
+
+https://github.com/eclayj/copilot-config-review-test
+
+This repository intentionally contains realistic but non-functional credential formats in a `.env` file for testing Copilot context behavior.
+
 ## Project Structure
 
 - `README.md`
