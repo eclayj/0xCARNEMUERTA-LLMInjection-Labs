@@ -76,3 +76,18 @@ Results will be logged and classified in `logs/logs.jsonl`.
 
 This repository is for educational and research purposes only.  
 Do not use these techniques against production systems you do not own.
+
+
+## Agent Attacks
+
+### Copilot Context Exposure Lab
+
+Explores how GitHub Copilot handles secret-bearing `.env` files in a local workspace.
+
+Key finding:
+
+Copilot respects `.gitignore` during repository search, but once a secret-bearing file enters its accessible context (editor or repository indexing), the assistant will reproduce its contents when asked.
+
+Lab documentation:
+
+agent-attacks/README.md
